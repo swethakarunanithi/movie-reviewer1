@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-film"></i> Movie Reviews</h1>
+            <p class="subtitle">Share your thoughts on the latest movies</p>
+        </header>
+
+        <div class="review-form">
+            <div class="form-group">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&crop=face" alt="Your Avatar" class="user-avatar">
+                <div class="form-inputs">
+                    <input type="text" id="movie-title-input" placeholder="Movie Title">
+                    <textarea id="review-input" placeholder="Write your review here..."></textarea>
+                    <div class="rating-input">
+                        <span>Rating:</span>
+                        <i class="fas fa-star star" data-rating="1"></i>
+                        <i class="fas fa-star star" data-rating="2"></i>
+                        <i class="fas fa-star star" data-rating="3"></i>
+                        <i class="fas fa-star star" data-rating="4"></i>
+                        <i class="fas fa-star star" data-rating="5"></i>
+                    </div>
+                    <button class="submit-btn" id="submit-review">Post Review</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-container">
+            <div id="reviews-feed">
+
+
+
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" type="module">
+        // Data file content (normally would be in separate file)
+        
+
+       
+    </script>
+</body>
+</html>
